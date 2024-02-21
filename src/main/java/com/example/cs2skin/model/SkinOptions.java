@@ -11,6 +11,7 @@ import static jakarta.persistence.GenerationType.IDENTITY;
 public class SkinOptions {
     private final  static AtomicInteger idgenerator = new AtomicInteger(0);
 
+
     @Id
     @GeneratedValue(strategy = IDENTITY)
     private int id;
